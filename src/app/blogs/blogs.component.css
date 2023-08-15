@@ -1,0 +1,21 @@
+.title-section {
+    color: #2a2725;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    position: relative;
+    margin: 10px;
+}
+
+.title-section[_ngcontent-eih-c9]::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #2a2725;
+    bottom: -15px;
+    left: calc(50% - 20px);
+}
+

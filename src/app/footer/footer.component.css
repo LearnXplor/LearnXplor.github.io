@@ -1,0 +1,46 @@
+/* Remove the fixed position and adjust other properties */
+.custom-footer {
+    position: relative;
+    background-color: #184e8e;
+    color: #fff;
+    padding: 15px; /* Adjust padding for a smaller footer size */
+}
+
+/* Additional styling for the footer content */
+.footer-content {
+    padding: 10px; /* Adjust padding for content spacing */
+}
+
+/* Styling for the custom list */
+.custom-list {
+    list-style: none;
+    padding: 0;
+}
+
+.custom-list li {
+    margin-bottom: 8px; /* Slightly reduce margin for a smaller gap between list items */
+}
+
+.custom-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.custom-list a:hover {
+    color: #f0f0f0;
+}
+
+/* Media queries for responsive adjustments */
+@media (max-width: 768px) {
+    .custom-footer {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .footer-content {
+        padding: 5px; /* Adjust padding for smaller screens */
+    }
+    
+    .custom-list li {
+        margin-bottom: 5px; /* Further reduce margin for smaller screens */
+    }
+}

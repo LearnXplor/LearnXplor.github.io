@@ -1,0 +1,11 @@
+<div class="row justify-content-center my-2 pt-2">
+    <div class="clock-button-container">
+      <button class="clock-button" (click)="startStopTimer()">
+        {{ timerRunning ? 'Stop Timer' : 'Start Timer' }}
+      </button>
+      <span class="clock-timer">{{ formatTime(timer) }}</span>
+      <div class="time-difference" *ngIf="!timerRunning && endTime">
+        Time Spent: {{ calculateTimeDifference() }}
+      </div>
+    </div>
+  </div>

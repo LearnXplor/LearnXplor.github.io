@@ -1,0 +1,44 @@
+.jumbotron {
+    background: url('https://www.hostinger.in/tutorials/wp-content/uploads/sites/2/2022/06/Matt-Farleys-portfolio.png') no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .feature-card {
+    padding: 20px;
+  }
+  
+  .feature-icon {
+    font-size: 3rem;
+    color: #007BFF;
+  }
+  
+  .feature-title {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .feature-description {
+    margin-top: 10px;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 576px) {
+    .jumbotron {
+      padding: 80px 0;
+    }
+    
+    .feature-card {
+      padding: 15px;
+    }
+    
+    .feature-icon {
+      font-size: 2.5rem;
+    }
+  }
+  
